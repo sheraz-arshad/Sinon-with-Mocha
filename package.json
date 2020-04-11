@@ -1,0 +1,31 @@
+{
+  "name": "mocha-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ./global.js ./test/**/*.test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "7.7.0",
+    "@babel/core": "7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "7.7.1",
+    "@babel/register": "7.7.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.16.0",
+    "eslint-config-node-strict": "^0.0.2",
+    "faker": "^4.1.0",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.1"
+  },
+  "dependencies": {
+    "sequelize": "^5.21.6"
+  }
+}
